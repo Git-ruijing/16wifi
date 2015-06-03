@@ -24,7 +24,7 @@
 #define FREE114IN @"http://wifi.gd118114.cn/login.ajax"
 #define FREE114OUT @"http://wifi.gd118114.cn/logout.ajax"
 @interface NetPlayViewController ()
-
+//sss
 @end
 
 @implementation NetPlayViewController
