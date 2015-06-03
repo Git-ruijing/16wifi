@@ -11,7 +11,7 @@
 #import "VedioViewController.h"
 #import "NewsChannelViewController.h"
 #import "SpeedViewController.h"
-#import "CtWifiApi.h"
+
 #define APPLEURL @"http://www.apple.com/"
 #define SCREENWIDTH ([[UIScreen mainScreen] bounds].size.width)
 #define SCREENHEIGHT ([[UIScreen mainScreen] bounds].size.height)

@@ -101,10 +101,6 @@
 		1B2D8EF61A0B611300BE73D8 /* umFeedback.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2D8E671A0B5E7900BE73D8 /* umFeedback.bundle */; };
 		1B2D8EF71A0B612200BE73D8 /* UMUFP.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2D8E5E1A0B5E7900BE73D8 /* UMUFP.bundle */; };
 		1B3BCC271A2C004300E0403D /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BCC261A2C004300E0403D /* TabBarViewController.m */; };
-		1B40D9C61ADB5DFF0064ABEE /* ctwifiapi_ios.lic in Resources */ = {isa = PBXBuildFile; fileRef = 1B40D9C21ADB5DFF0064ABEE /* ctwifiapi_ios.lic */; };
-		1B40D9C71ADB5DFF0064ABEE /* libCtWifiApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B40D9C41ADB5DFF0064ABEE /* libCtWifiApi.a */; };
-		1B40D9C81ADB5DFF0064ABEE /* wlandialer.puk in Resources */ = {isa = PBXBuildFile; fileRef = 1B40D9C51ADB5DFF0064ABEE /* wlandialer.puk */; };
-		1B40D9CA1ADB5E870064ABEE /* libCtWifiApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B40D9C91ADB5E870064ABEE /* libCtWifiApi.a */; };
 		1B415BAF1A1F1B8600BAF688 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B415BAD1A1F1B8600BAF688 /* thumb.png */; };
 		1B415BB01A1F1B8600BAF688 /* thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B415BAE1A1F1B8600BAF688 /* thumb@2x.png */; };
 		1B415BC81A1F2DFD00BAF688 /* jayback_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B415BB41A1F2DFD00BAF688 /* jayback_d.png */; };
@@ -1027,11 +1023,6 @@
 		1B2D8E941A0B5E7900BE73D8 /* YFJLeftSwipeDeleteTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFJLeftSwipeDeleteTableView.m; path = "e-RoadWiFi/Tools/YFJLeftSwipeDeleteTableView.m"; sourceTree = "<group>"; };
 		1B3BCC251A2C004300E0403D /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = ../MainViewController/TabBarViewController.h; sourceTree = "<group>"; };
 		1B3BCC261A2C004300E0403D /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = ../MainViewController/TabBarViewController.m; sourceTree = "<group>"; };
-		1B40D9C21ADB5DFF0064ABEE /* ctwifiapi_ios.lic */ = {isa = PBXFileReference; lastKnownFileType = file; path = ctwifiapi_ios.lic; sourceTree = "<group>"; };
-		1B40D9C31ADB5DFF0064ABEE /* CtWifiApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CtWifiApi.h; sourceTree = "<group>"; };
-		1B40D9C41ADB5DFF0064ABEE /* libCtWifiApi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCtWifiApi.a; sourceTree = "<group>"; };
-		1B40D9C51ADB5DFF0064ABEE /* wlandialer.puk */ = {isa = PBXFileReference; lastKnownFileType = file; path = wlandialer.puk; sourceTree = "<group>"; };
-		1B40D9C91ADB5E870064ABEE /* libCtWifiApi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCtWifiApi.a; path = "e-RoadWiFi/libCtWifiApi.a"; sourceTree = "<group>"; };
 		1B415BAD1A1F1B8600BAF688 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
 		1B415BAE1A1F1B8600BAF688 /* thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb@2x.png"; sourceTree = "<group>"; };
 		1B415BB41A1F2DFD00BAF688 /* jayback_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jayback_d.png; sourceTree = "<group>"; };
@@ -1917,7 +1908,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B40D9CA1ADB5E870064ABEE /* libCtWifiApi.a in Frameworks */,
 				1BF3F82B1A26CCFA0047B809 /* MessageUI.framework in Frameworks */,
 				1BF3F8291A26CCE10047B809 /* OpenGLES.framework in Frameworks */,
 				1BF3F8271A26CCD60047B809 /* Accounts.framework in Frameworks */,
@@ -1956,7 +1946,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B40D9C71ADB5DFF0064ABEE /* libCtWifiApi.a in Frameworks */,
 				696C77E6198B696900DB75E5 /* UIKit.framework in Frameworks */,
 				696C77E5198B696900DB75E5 /* Foundation.framework in Frameworks */,
 			);
@@ -3159,7 +3148,6 @@
 		696C77C9198B696900DB75E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B40D9C91ADB5E870064ABEE /* libCtWifiApi.a */,
 				698570441A8D9D3C008DA025 /* StoreKit.framework */,
 				1BF3F82A1A26CCFA0047B809 /* MessageUI.framework */,
 				1BF3F8281A26CCE10047B809 /* OpenGLES.framework */,
@@ -3221,10 +3209,6 @@
 			isa = PBXGroup;
 			children = (
 				696C77EB198B696900DB75E5 /* e-RoadWiFiTests-Info.plist */,
-				1B40D9C21ADB5DFF0064ABEE /* ctwifiapi_ios.lic */,
-				1B40D9C31ADB5DFF0064ABEE /* CtWifiApi.h */,
-				1B40D9C41ADB5DFF0064ABEE /* libCtWifiApi.a */,
-				1B40D9C51ADB5DFF0064ABEE /* wlandialer.puk */,
 				696C77EC198B696900DB75E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -4267,9 +4251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B40D9C81ADB5DFF0064ABEE /* wlandialer.puk in Resources */,
 				696C77EE198B696900DB75E5 /* InfoPlist.strings in Resources */,
-				1B40D9C61ADB5DFF0064ABEE /* ctwifiapi_ios.lic in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
