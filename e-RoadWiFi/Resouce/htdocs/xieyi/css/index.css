@@ -1,0 +1,29 @@
+/* title */
+/* 首页css控制 */
+*{ font-family:"微软雅黑";}
+.containerWrap{ padding:10px 0px;}
+.question{ text-align:left; background: #fff url(../images/question.png) no-repeat 20px center; background-size:16px; margin-top:10px; border-top:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8; }
+.question a:link{ color:#555;}
+.question a:visited{ color:#555;}
+.question:first-child{margin-top:0;}
+.question p{ padding:15px 0 15px 50px; font-size:18px; background:url(../images/rightArrow.png) no-repeat 93% center; background-size:12px;}
+/* 账号问题 */
+.account{ width:100%; text-align:left;}
+.accountTitle{ width:100%; padding-top:5px;}
+.accountTitle h2{ font-size:18px; text-indent:20px; padding-bottom:5px;}
+.accountTxt{ width:100%;}
+.accountTxt h3,.accountTxt .p{ line-height:26px;border-top:1px solid #d8d8d8;}
+.accountTxt h3{ background:#fff; padding:15px 15px 15px 20px; font-size:16px;}
+.accountTxt .p{ padding:15px 15px 15px 35px; font-size:14px;}
+.accountTxt .p h4{ font-size:14px;}
+.accountTxt .p .colorBlue{ color:#0024ff;}
+.accountTxt .p .block{ display:block;}
+.accountTxt .p ol{ border-top:1px solid #ccc; border-right:1px solid #ccc; margin:10px 0px;}
+.accountTxt .p ol li{ float:left; border-bottom:1px solid #ccc; border-left:1px solid #ccc;width: 49.5%;text-align: center;line-height: 34px;}
+.accountTxt .p ol.heng3{ border-top:1px solid #ccc; border-right:1px solid #ccc; margin:10px 0px;}
+.accountTxt .p ol.heng3 li{ float:left; border-bottom:1px solid #ccc; border-left:1px solid #ccc;width: 23.1%;text-align: center;line-height: 34px;white-space: nowrap;overflow: hidden;}
+.accountTxt .p ol.heng3 li.chang{ width:52.5%;}
+.accountTxt .p ul li{ text-indent:0px;}
+.accountTxt .p .imgList li img{ width:30px; float:left; padding-right:10px;}
+.accountTxt .p .imgList li:first-child{ padding-top:0px;}
+.accountTxt .p .imgList li,.accountTxt .p .imgList li a{ padding-top:10px; line-height: 30px; color:#555;}
