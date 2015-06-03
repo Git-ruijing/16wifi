@@ -26,7 +26,7 @@
 @interface NetPlayViewController ()
 //sss
 @end
-
+//解决冲突域
 @implementation NetPlayViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
