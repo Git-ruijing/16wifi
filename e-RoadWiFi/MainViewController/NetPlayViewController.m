@@ -25,6 +25,7 @@
 #define FREE114OUT @"http://wifi.gd118114.cn/logout.ajax"
 @interface NetPlayViewController ()
 @end
+//add test string
 @implementation NetPlayViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
